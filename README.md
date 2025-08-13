@@ -37,10 +37,14 @@ test_go_01:
   image: golang:1.17
   script:
    - go test .
+  tags: 
+    - testrunnertag
 
 build_job_01:
   stage: build
   image: docker:latest
   script:
    - docker build .
+  tags: 
+   - testrunnertag
 ```
