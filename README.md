@@ -10,6 +10,8 @@
 
 В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте.
 
+![Конфиг раннера](https://github.com/w1ncez/8-03-hw/blob/main/gitlabrunner.jpg?raw=true)
+![Статус раннера в проекте](https://github.com/w1ncez/8-03-hw/blob/main/gitlabrunner1.jpg?raw=true)
 
 
 ---
@@ -48,3 +50,4 @@ build_job_01:
   tags: 
    - testrunnertag
 ```
+![Успешно собранные сборки test_go_01 и build_job_01](https://github.com/w1ncez/8-03-hw/blob/main/pipeline.jpg?raw=true)
